@@ -1,0 +1,31 @@
+{% include header.html %}
+
+<div class="content_container layout horizontal center-justified m4">
+  <div class="content_episode">
+    <div class="mb5 mt10">
+      <div class="mb10 mt10 text-center">Season 01</div>
+      <div class="divider mb10"></div>
+    </div>
+    <ul>
+      {% for item in page.episodes %}
+        <li>
+          <div class="flex layout horizontal mb4">
+            <div class="flex-basis-66 mb5 d-mr5">
+                <img src="{{ item.image }}"/>
+            </div>
+            <div class="flex-basis-33">
+              <div class="mb5">
+                <div class="mb4">{{ item.index }}:</div>
+                <div class="mb4"><i>{{ item.title }}</i></div>
+                <div class="mb4">{{ item.description }}</div>
+                <div class="mb1 text-small color-grey">Premieres {{ item.premiere_date }}</div>
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% include footer.html %}

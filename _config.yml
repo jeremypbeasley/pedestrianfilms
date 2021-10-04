@@ -1,0 +1,31 @@
+---
+title: Pedestrian Films
+timezone: America/Los_Angeles
+collections:
+  uploads:
+    title: Uploads
+    output: true
+name: Pedestrian Films
+global_nav:
+- title: Trailer
+  slug: trailer
+- title: Episodes
+  slug: episodes
+- title: Story
+  slug: story
+email: hello@pedestrianfilms.com
+description: a filmmaking company focused on everyday people bringing us closer to the earth, to each other, and to ourselves.
+og_title: Pedestrian Films
+og_photo: "/uploads/hobuck.jpg"
+baseurl:
+url: http://pedestrianfilms.com
+twitter_username: pedestrianfilms
+github_username: jeremypbeasley
+markdown: kramdown
+exclude:
+- Gemfile.lock
+- Gemfile
+- Gruntfile.js
+- node_modules
+- package.json
+- README.md

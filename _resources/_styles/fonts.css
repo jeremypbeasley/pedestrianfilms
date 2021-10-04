@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'LibreFranklinMedium';
+  src: url('/uploads/LibreFranklinMedium.eot');
+  src: url('/uploads/LibreFranklinMedium.eot') format('embedded-opentype'),
+       url('/uploads/LibreFranklinMedium.woff2') format('woff2'),
+       url('/uploads/LibreFranklinMedium.woff') format('woff'),
+       url('/uploads/LibreFranklinMedium.ttf') format('truetype'),
+       url('/uploads/LibreFranklinMedium.svg#LibreFranklinMedium') format('svg');
+}
